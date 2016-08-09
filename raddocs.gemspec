@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "sinatra"
   s.add_runtime_dependency "haml", "~> 4.0"
-  s.add_runtime_dependency "json", "~> 1.8"
+  s.add_runtime_dependency "json"
 
   s.add_development_dependency "rspec", "~> 3.0"
   s.add_development_dependency "rack-test", "~> 0.6"
